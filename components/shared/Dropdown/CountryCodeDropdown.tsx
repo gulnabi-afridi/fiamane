@@ -4,19 +4,21 @@ import * as Icons from "../../../SVG/Icons";
 interface Props {
   State: boolean;
   Event: (e: boolean) => void;
-  GetValueEvent: (e: string) => void;
+  GetValueEvent: (e: string, name?: string) => void;
   Placeholder: string;
   Item: Array<object>;
   Styles?: string;
+  name?: string;
 }
 
-function Dropdown({
+function CountryCodeDropdown({
   State,
   Event,
   GetValueEvent,
   Placeholder = "Select",
   Item,
   Styles = "w-full h-[48px] rounded-[8px] border-[1px] border-[#E6E6E6]",
+  name,
 }: Props) {
   const [ValueTitle, SetValueTitle] = React.useState<string>("");
   React.useEffect(() => {
@@ -42,7 +44,7 @@ function Dropdown({
     Event(false);
   });
   return (
-    <div ref={domNode} className={`relative Dropdown ${Styles}`}>
+    <div ref={domNode} className={`${name} relative Dropdown ${Styles}`}>
       <div
         onClick={() => Event(!State)}
         className="w-full h-full flex justify-between items-center px-4 cursor-pointer"
@@ -61,22 +63,23 @@ function Dropdown({
         />
       </div>
       {State && (
-        <div className="w-full absolute top-[105%] z-50 left-0 drop-shadow-xl bg-white-main rounded-bl-[8px] rounded-br-[8px] py-1 max-h-[136px] overflow-auto">
+        <div className="w-full absolute top-[105%] z-50 left-0 drop-shadow-xl bg-white-main rounded-bl-[8px] rounded-br-[8px] py-1 max-h-[120px] overflow-auto CountryCodeDropdown">
           {Item.map((item: any, index: number) => {
             return (
-              <div
+              <button
+                type="button"
                 key={index}
                 onClick={() => {
-                  SetValueTitle(item.Name);
-                  GetValueEvent(item.Value);
+                  SetValueTitle(item.phone);
+                  GetValueEvent(item.phone);
                   Event(!State);
                 }}
                 className={`w-full font-OpenSans font-[400] text-black-main text-[16px] leading-[30px] text-start px-4 ${
-                  ValueTitle === item.Name && "bg-brand-mainCool"
+                  ValueTitle === item.phone && "bg-brand-mainCool"
                 } hover:bg-brand-mainCool cursor-pointer`}
               >
-                {item.Name}
-              </div>
+                {item.phone}
+              </button>
             );
           })}
         </div>
@@ -85,4 +88,4 @@ function Dropdown({
   );
 }
 
-export default Dropdown;
+export default CountryCodeDropdown;

@@ -3,7 +3,7 @@ import Dialog from "@mui/material/Dialog";
 import * as Icons from "../../SVG/Icons";
 import Image from "next/image";
 import Link from "next/link";
-import Dropdown from "components/shared/Dropdown/Dropdown";
+import Dropdown from "@/components/shared/Dropdown/Dropdown";
 import CountryCodeDropdown from "components/shared/Dropdown/CountryCodeDropdown";
 import "react-phone-input-2/lib/style.css";
 import { useTranslation } from "hooks/useTranslation";
