@@ -25,3 +25,59 @@ export const Location: React.FC<Props> = ({
     />
   </svg>
 );
+
+export const User: React.FC<Props> = ({ fill, stroke, ClassName }: Props) => (
+  <svg
+    width="40"
+    height="40"
+    viewBox="0 0 40 40"
+    className={ClassName}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M20 35C28.2843 35 35 28.2843 35 20C35 11.7157 28.2843 5 20 5C11.7157 5 5 11.7157 5 20C5 28.2843 11.7157 35 20 35Z"
+      stroke={stroke}
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M20 25C23.4518 25 26.25 22.2018 26.25 18.75C26.25 15.2982 23.4518 12.5 20 12.5C16.5482 12.5 13.75 15.2982 13.75 18.75C13.75 22.2018 16.5482 25 20 25Z"
+      stroke={stroke}
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M9.96875 31.1572C10.9092 29.3047 12.3443 27.7489 14.1149 26.6621C15.8855 25.5753 17.9225 25 20 25C22.0775 25 24.1145 25.5753 25.8851 26.6621C27.6557 27.7489 29.0908 29.3047 30.0312 31.1572"
+      stroke={stroke}
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const ArrowDown: React.FC<Props> = ({
+  fill,
+  stroke,
+  ClassName,
+}: Props) => (
+  <svg
+    width="10"
+    height="6"
+    viewBox="0 0 10 6"
+    className={ClassName}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M8.5999 1.20078L5.28275 4.51794C5.12654 4.67415 4.87327 4.67415 4.71706 4.51794L1.3999 1.20078"
+      stroke={stroke}
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
