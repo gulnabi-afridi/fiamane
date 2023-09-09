@@ -1,7 +1,7 @@
-import messages from "config/messages";
+import messages from "@/config/messages";
 import { useRouter } from "next/router";
 import { createContext, useContext } from "react";
-import { ILocaleContext, LocaleProviderProps } from "types/useLocal.types";
+import { ILocaleContext, LocaleProviderProps } from "../types/useLocal.types";
 
 const LocaleContext = createContext<ILocaleContext>({
   locale: "fr",
