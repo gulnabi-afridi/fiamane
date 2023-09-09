@@ -1,8 +1,8 @@
-import messages from "config/messages";
 import { IntlProvider, useIntl } from "react-intl";
 import { TranslationsProviderProps } from "../types/useTranslation.types";
 import { flattenObject } from "../utils/functions";
 import { useLocale } from "./useLocale";
+import messages from "@/config/messages";
 
 /**
  * Translations hook
