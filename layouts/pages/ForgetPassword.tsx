@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Dialog from "@mui/material/Dialog";
 import * as Icons from "../../SVG/Icons";
 import Image from "next/image";
-import ConfirmationWrapper from "components/shared/Dialogue/ConfirmationWrapper";
+import Confirmation from "@/components/shared/Dialogue/ConfirmationWrapper";
 import { useTranslation } from "../../hooks/useTranslation";
 
 interface Props {
@@ -224,7 +224,7 @@ const ForgetPassword: React.FC<Props> = ({
 
       {/* This will call when password will be successfully changed => you just need to update state "setPasswordConfirmation(true)" if success*/}
       {/* There is a option prop Duration if you will send this props the pop up will close after that duration i,e. Duration={5000} */}
-      <ConfirmationWrapper
+      <Confirmation
         State={IsConfirmation}
         Event={setPasswordConfirmation}
         Duration={5000}
@@ -242,7 +242,7 @@ const ForgetPassword: React.FC<Props> = ({
             {`Votre mot de passe à été changé avec succès !`}
           </p>
         </div>
-      </ConfirmationWrapper>
+      </Confirmation>
     </React.Fragment>
   );
 };
