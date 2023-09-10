@@ -3,7 +3,7 @@ import Dialog from "@mui/material/Dialog";
 import * as Icons from "../../SVG/Icons";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslation } from "hooks/useTranslation";
+import { useTranslation } from "../../hooks/useTranslation";
 
 interface Props {
   LoginState: boolean;
