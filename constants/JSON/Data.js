@@ -19,6 +19,34 @@ const Data = {
       },
     ],
   },
+  LeftNavigation: {
+    NavItems: [
+      {
+        Name: "AppSideBar.MyOffers",
+        Route: "/offer",
+      },
+      {
+        Name: "AppSideBar.MyDeparatures",
+        Route: "/departure",
+      },
+      {
+        Name: "AppSideBar.MyQuotations",
+        Route: "/my-quote",
+      },
+      {
+        Name: "AppSideBar.MyProfile",
+        Route: "/profile",
+      },
+      {
+        Name: "AppSideBar.MyBookmars",
+        Route: "/favorite",
+      },
+      {
+        Name: "AppSideBar.Settings",
+        Route: "/settings",
+      },
+    ],
+  },
 };
 
 export default Data;
