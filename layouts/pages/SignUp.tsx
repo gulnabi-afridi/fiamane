@@ -6,7 +6,7 @@ import Link from "next/link";
 import Dropdown from "@/components/shared/Dropdown/Dropdown";
 import CountryCodeDropdown from "@/components/shared/Dropdown/CountryCodeDropdown";
 import "react-phone-input-2/lib/style.css";
-import { useTranslation } from "hooks/useTranslation";
+import { useTranslation } from "../../hooks/useTranslation";
 import { countries } from "../../constants/data/countries/index";
 
 interface Props {
