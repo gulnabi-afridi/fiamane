@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 import SignUp from "../../../layouts/pages/SignUp";
 import Login from "../../../layouts/pages/Login";
 import ForgetPassword from "../../../layouts/pages/ForgetPassword";
-import { useTranslation } from "hooks/useTranslation";
+import { useTranslation } from "../../../hooks/useTranslation";
 
 import Drawer from "react-modern-drawer";
 //import styles 👇
