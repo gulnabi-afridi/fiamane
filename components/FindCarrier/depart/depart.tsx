@@ -3,7 +3,7 @@ import * as Icons from '../../../SVG/Icons';
 import DepartCard from './departCard';
 import { BiSearch } from 'react-icons/bi';
 import Pagination from '@mui/material/Pagination';
-import Data from 'constants/JSON/Data';
+import Data from '@/constants/JSON/Data';
 import DepartHandler from './departHandler';
 
 function Depart() {
