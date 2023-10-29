@@ -1,5 +1,10 @@
-import React from "react";
+import React from 'react';
+import FindCarrier from '@/layouts/pages/FindCarrier';
 
 export default function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <FindCarrier />
+    </div>
+  );
 }
