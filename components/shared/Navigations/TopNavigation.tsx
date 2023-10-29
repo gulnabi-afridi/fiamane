@@ -6,17 +6,12 @@ import ContainedCircle from "../Buttons/ContainedCircle";
 import * as Icons from "../../../SVG/Icons";
 import { Divide as Hamburger } from "hamburger-react";
 import { useRouter } from "next/router";
-import SignUp from "../../../layouts/pages/SignUp";
-import Login from "../../../layouts/pages/Login";
-import ForgetPassword from "../../../layouts/pages/ForgetPassword";
-import { useTranslation } from "../../../hooks/useTranslation";
 
 import Drawer from "react-modern-drawer";
 //import styles 👇
 import "react-modern-drawer/dist/index.css";
 
 function TopNavigation() {
-  const translate = useTranslation();
   const Router = useRouter();
   const [UserMenu, setUserMenu] = useState<boolean>(false);
 
@@ -77,7 +72,7 @@ function TopNavigation() {
                     href={item.Route}
                     className="font-NunitoSans font-semibold text-brand-secondary text-[14px] leading-[20px]"
                   >
-                    {translate(item.Name)}
+                    {item.Name}
                   </Link>
                 );
               })}
@@ -93,7 +88,7 @@ function TopNavigation() {
                   fill="white"
                 />
               }
-              Text={translate("Navbar.Links.TrackAnItem")}
+              Text={"Navbar.Links.TrackAnItem"}
             />
             {/* Language dropdown */}
             <div className="inline-block relative language-dropdown">
@@ -156,13 +151,11 @@ function TopNavigation() {
                       setUserMenu(false);
                     }}
                   >
-                    <ContainedCircle
-                      Text={translate("Navbar.LoginAvatar.LoginText")}
-                    />
+                    <ContainedCircle Text={"Navbar.LoginAvatar.LoginText"} />
                   </div>
                   <div className="flex justify-center items-center mt-2 gap-2">
                     <p className="font-OpenSans font-normal text-brand-secondary text-[12px] leading-[20px] whitespace-nowrap">
-                      {translate("Navbar.LoginAvatar.NewAccountText")}
+                      {"Navbar.LoginAvatar.NewAccountText"}
                     </p>
                     <button
                       onClick={() => {
@@ -171,7 +164,7 @@ function TopNavigation() {
                       }}
                       className="font-Roboto font-semibold text-brand-main text-[12px] leading-[20px] whitespace-nowrap"
                     >
-                      {translate("Navbar.LoginAvatar.MarkedText")}
+                      {"Navbar.LoginAvatar.MarkedText"}
                     </button>
                   </div>
                 </div>
@@ -334,26 +327,6 @@ function TopNavigation() {
           )}
         </div>
       </Drawer>
-
-      {/* Sign Up Dialogue */}
-      <SignUp
-        SignUpState={Is_SignUpDialogueBox}
-        SignUpEvent={Set_SignUpDialogueBox}
-        LoginState={Is_LoginDialogueBox}
-        LoginEvent={Set_LoginDialogueBox}
-      />
-      {/* Login Dialogue */}
-      <Login
-        LoginState={Is_LoginDialogueBox}
-        LoginEvent={Set_LoginDialogueBox}
-        SignUpEvent={Set_SignUpDialogueBox}
-        ForgetPasswordEvent={Set_ForgetPasswordBox}
-      />
-      {/* ForgetPassword tab */}
-      <ForgetPassword
-        ForgetPasswordState={Is_ForgetPasswordBox}
-        ForgetPasswordEvent={Set_ForgetPasswordBox}
-      />
     </React.Fragment>
   );
 }

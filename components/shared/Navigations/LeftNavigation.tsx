@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 import Data from "../../../constants/JSON/Data";
 import ContainedCircle from "../Buttons/ContainedCircle";
 import * as Icons from "../../../SVG/Icons";
-import { useTranslation } from "../../../hooks/useTranslation";
 
 // Auth Content props types
 interface context {
@@ -13,8 +12,6 @@ interface context {
 }
 
 function LeftNavigation() {
-  const translate = useTranslation();
-
   const Router = useRouter();
   return (
     <div className="w-full h-full bg-brand-secondary py-8 flex justify-between items-center flex-col">
@@ -31,14 +28,14 @@ function LeftNavigation() {
                   : "font-normal"
               } `}
             >
-              {translate(item.Name)}
+              {item.Name}
             </Link>
           );
         })}
       </div>
       <ContainedCircle
         Icon={<Icons.Logout ClassName="w-[20px] h-[20px]" fill="#240046" />}
-        Text={translate("Buttons.LogOut")}
+        Text={"Buttons.LogOut"}
         styles="w-[223px] bg-white-main text-brand-secondary text-[16px]"
       />
     </div>
