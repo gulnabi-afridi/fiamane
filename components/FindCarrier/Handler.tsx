@@ -8,7 +8,7 @@ import * as Icons from '../../SVG/Icons';
 import { MdExpandMore } from 'react-icons/md';
 import ContainedCircle from '../shared/Buttons/ContainedCircle';
 import { BiSearch } from 'react-icons/bi';
-import OutSideClick from 'hooks/OutSideClick';
+import OutSideClick from '../../hooks/OutSideClick';
 
 interface Props {
   setState: React.Dispatch<React.SetStateAction<boolean>>;
