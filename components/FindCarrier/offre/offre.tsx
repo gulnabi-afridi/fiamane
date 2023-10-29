@@ -2,7 +2,7 @@ import React from 'react';
 import { BiSearch } from 'react-icons/bi';
 import OfferCard from './OfferCard';
 import Pagination from '@mui/material/Pagination';
-import Data from 'constants/JSON/Data';
+import Data from '@/constants/JSON/Data';
 
 const Offers: React.FC = () => {
   return (
