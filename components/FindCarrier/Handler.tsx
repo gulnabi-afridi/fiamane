@@ -1,14 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
-import InputFieldWithIcon from 'components/shared/Buttons/InputFieldWithIcon';
+import InputFieldWithIcon from '../shared/Buttons/InputFieldWithIcon';
 import { GoLocation } from 'react-icons/go';
 import { HiOutlineSwitchHorizontal } from 'react-icons/hi';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import { BsCalendar } from 'react-icons/bs';
 import * as Icons from '../../SVG/Icons';
 import { MdExpandMore } from 'react-icons/md';
-import { MdExpandLess } from 'react-icons/md';
-import ContainedCircle from 'components/shared/Buttons/ContainedCircle';
+import ContainedCircle from '../shared/Buttons/ContainedCircle';
 import { BiSearch } from 'react-icons/bi';
 import OutSideClick from 'hooks/OutSideClick';
 
