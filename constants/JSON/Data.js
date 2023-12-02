@@ -2,19 +2,19 @@ const Data = {
   TopNavigation: {
     NavItems: [
       {
-        Name: 'Navbar.Links.FindTransporter', //Find a carrier
+        Name: 'Trouver un transporteur', //Find a carrier
         Route: '/',
       },
       {
-        Name: 'Navbar.Links.Yearly', //Phone book
+        Name: 'Annuaire', //Phone book
         Route: '/annuaire',
       },
       {
-        Name: 'Navbar.Links.TrackAnItem', //Track a package
+        Name: 'Suivre un colis', //Track a package
         Route: '',
       },
       {
-        Name: 'Navbar.Links.FiamaneCompany', //Fiamane company
+        Name: 'Fiamane entreprise', //Fiamane company
         Route: '',
       },
     ],
