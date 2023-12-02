@@ -810,3 +810,47 @@ export const MessageIcon: React.FC<Props> = ({
     />
   </svg>
 );
+export const HeartIcon: React.FC<Props> = ({
+  fill,
+  stroke,
+  ClassName,
+}: Props) => (
+  <svg
+    width='21'
+    height='18'
+    viewBox='0 0 21 18'
+    fill={fill}
+    className={ClassName}
+    stroke={stroke}
+    xmlns='http://www.w3.org/2000/svg'
+  >
+    <path
+      d='M11.0477 16.8956C14.1726 15.5836 19.5 10.5772 19.5 6.36467V5.91761C19.5 3.20169 17.2838 1 14.55 1C12.8759 1 11.3958 1.82567 10.5 3.08947C9.60417 1.82567 8.12414 1 6.45 1C3.71619 1 1.5 3.20169 1.5 5.91761V6.36467C1.5 10.5807 6.83614 15.4593 9.95999 16.8761C10.3057 17.0329 10.6976 17.0425 11.0477 16.8956Z'
+      stroke={stroke}
+      stroke-width='2'
+      stroke-linejoin='round'
+    />
+  </svg>
+);
+export const FilterIcon: React.FC<Props> = ({
+  fill,
+  stroke,
+  ClassName,
+}: Props) => (
+  <svg
+    width='19'
+    height='21'
+    viewBox='0 0 19 21'
+    fill={fill}
+    className={ClassName}
+    stroke={stroke}
+    xmlns='http://www.w3.org/2000/svg'
+  >
+    <path
+      fill-rule='evenodd'
+      clip-rule='evenodd'
+      d='M0.966014 3.22788C-0.0557648 1.91417 0.880422 0 2.54472 0H16.4554C18.1197 0 19.0559 1.91416 18.0341 3.22788L12.7107 10.0723C12.5742 10.2478 12.5001 10.4638 12.5001 10.6862V16.0858C12.5001 16.6162 12.2894 17.1249 11.9143 17.5L9.91429 19.5C8.65436 20.7599 6.50008 19.8676 6.50008 18.0858V10.6862C6.50008 10.4638 6.42596 10.2478 6.28943 10.0723L0.966014 3.22788ZM16.4554 2H2.54472L7.86814 8.84439C8.27771 9.37099 8.50008 10.0191 8.50008 10.6862V18.0858L10.5001 16.0858V10.6862C10.5001 10.0191 10.7224 9.37099 11.132 8.84439L16.4554 2Z'
+      fill={fill}
+    />
+  </svg>
+);
