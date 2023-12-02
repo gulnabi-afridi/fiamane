@@ -283,6 +283,435 @@ const Data = {
       },
     ],
   },
+  Annuaire: {
+    Agences: [
+      {
+        id: '1',
+        IsVerified: true,
+        CompanyImage: '/Assets/Prans.png',
+        CompanyName: 'P Trans Logistics',
+        Rating: 4,
+        Reviews: '64',
+        Address: 'Zone Industrielle Parcelles A53  BP 23',
+        CompanyMessege:
+          'Urna, purus ac eleifend quisque magna. Odio fermentum, suspendisse cursus rhoncus. Metus parturient fringilla viverra proin.... Lire plus',
+        Phone: '+212 530 800 800',
+        Gallery: [
+          '/Assets/Annuaire/Gallery1.png',
+          '/Assets/Annuaire/Gallery2.png',
+          '/Assets/Annuaire/Gallery3.png',
+          '/Assets/Annuaire/Gallery4.png',
+        ],
+        Clients: [
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 4,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/boy.png',
+            Address: 'Oujda centre, Oujda',
+            Rating: 5,
+            Date: '20/05/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+        ],
+      },
+      {
+        id: '2',
+        IsVerified: true,
+        CompanyImage: '/Assets/MTT.png',
+        CompanyName: 'Maghreb Tourisme & Transport ',
+        Rating: 4,
+        Reviews: '44',
+        Address: 'Lotissement Boumara, 520, Oujda, Maroc',
+        CompanyMessege:
+          'Urna, purus ac eleifend quisque magna. Odio fermentum, suspendisse cursus rhoncus. Metus parturient fringilla viverra proin.... Lire plus',
+        Phone: '+212 530 800 800',
+        Gallery: [
+          '/Assets/Annuaire/Gallery1.png',
+          '/Assets/Annuaire/Gallery2.png',
+          '/Assets/Annuaire/Gallery3.png',
+          '/Assets/Annuaire/Gallery4.png',
+        ],
+        Clients: [
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 5,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/boy.png',
+            Address: 'Oujda centre, Oujda',
+            Rating: 4,
+            Date: '20/05/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+        ],
+      },
+      {
+        id: '3',
+        IsVerified: false,
+        CompanyImage: '/Assets/Boumara.png',
+        CompanyName: 'Agence BOUMARA Trans',
+        Rating: 4,
+        Reviews: '74',
+        Address: 'Rte De Marrakech Km 12 Z.I.  Rabat,Morocco',
+        CompanyMessege:
+          'Urna, purus ac eleifend quisque magna. Odio fermentum, suspendisse cursus rhoncus. Metus parturient fringilla viverra proin.... Lire plus',
+        Phone: '+212 530 800 800',
+        Gallery: [
+          '/Assets/Annuaire/Gallery1.png',
+          '/Assets/Annuaire/Gallery2.png',
+          '/Assets/Annuaire/Gallery3.png',
+          '/Assets/Annuaire/Gallery4.png',
+        ],
+        Clients: [
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 5,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/boy.png',
+            Address: 'Oujda centre, Oujda',
+            Rating: 4,
+            Date: '20/05/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/boy.png',
+            Address: 'Oujda centre, Oujda',
+            Rating: 4,
+            Date: '20/05/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+        ],
+      },
+      {
+        id: '4',
+        IsVerified: false,
+        CompanyImage: '/Assets/Guadix.png',
+        CompanyName: 'Guadix Log ',
+        Rating: 4,
+        Reviews: '64',
+        Address: '194 Boulevard Aba Chouaib Doukkali',
+        CompanyMessege:
+          'Urna, purus ac eleifend quisque magna. Odio fermentum, suspendisse cursus rhoncus. Metus parturient fringilla viverra proin.... Lire plus',
+        Phone: '+212 530 800 800',
+        Gallery: [
+          '/Assets/Annuaire/Gallery1.png',
+          '/Assets/Annuaire/Gallery2.png',
+          '/Assets/Annuaire/Gallery3.png',
+          '/Assets/Annuaire/Gallery4.png',
+        ],
+        Clients: [
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 5,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/boy.png',
+            Address: 'Oujda centre, Oujda',
+            Rating: 4,
+            Date: '20/05/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+        ],
+      },
+      {
+        id: '5',
+        IsVerified: true,
+        CompanyImage: '/Assets/Boumara.png',
+        CompanyName: 'Agence BOUMARA Trans ',
+        Rating: 4,
+        Reviews: '44',
+        Address: 'Lotissement Boumara, 520, Oujda, Maroc',
+        CompanyMessege:
+          'Urna, purus ac eleifend quisque magna. Odio fermentum, suspendisse cursus rhoncus. Metus parturient fringilla viverra proin.... Lire plus',
+        Phone: '+212 530 800 800',
+        Gallery: [
+          '/Assets/Annuaire/Gallery1.png',
+          '/Assets/Annuaire/Gallery2.png',
+          '/Assets/Annuaire/Gallery3.png',
+          '/Assets/Annuaire/Gallery4.png',
+        ],
+        Clients: [
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 5,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/boy.png',
+            Address: 'Oujda centre, Oujda',
+            Rating: 4,
+            Date: '20/05/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+        ],
+      },
+      {
+        id: '6',
+        IsVerified: true,
+        CompanyImage: '/Assets/Guadix.png',
+        CompanyName: 'Guadix Log',
+        Rating: 4,
+        Reviews: '87',
+        Address: '194 Boulevard Aba Chouaib Doukkali',
+        CompanyMessege:
+          'Urna, purus ac eleifend quisque magna. Odio fermentum, suspendisse cursus rhoncus. Metus parturient fringilla viverra proin.... Lire plus',
+        Phone: '+212 530 800 800',
+        Gallery: [
+          '/Assets/Annuaire/Gallery1.png',
+          '/Assets/Annuaire/Gallery2.png',
+          '/Assets/Annuaire/Gallery3.png',
+          '/Assets/Annuaire/Gallery4.png',
+        ],
+        Clients: [
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 5,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/boy.png',
+            Address: 'Oujda centre, Oujda',
+            Rating: 4,
+            Date: '20/05/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 5,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 5,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+        ],
+      },
+      {
+        id: '7',
+        IsVerified: false,
+        CompanyImage: '/Assets/Prans.png',
+        CompanyName: 'P Trans Logistics',
+        Rating: 4,
+        Reviews: '54',
+        Address: 'Zone Industrielle Parcelles A53 Ait Melloul BP 23',
+        CompanyMessege:
+          'Urna, purus ac eleifend quisque magna. Odio fermentum, suspendisse cursus rhoncus. Metus parturient fringilla viverra proin.... Lire plus',
+        Phone: '+212 530 800 800',
+        Gallery: [
+          '/Assets/Annuaire/Gallery1.png',
+          '/Assets/Annuaire/Gallery2.png',
+          '/Assets/Annuaire/Gallery3.png',
+          '/Assets/Annuaire/Gallery4.png',
+        ],
+        Clients: [
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 4,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/boy.png',
+            Address: 'Oujda centre, Oujda',
+            Rating: 5,
+            Date: '20/05/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 5,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+        ],
+      },
+      {
+        id: '8',
+        IsVerified: false,
+        CompanyImage: '/Assets/MTT.png',
+        CompanyName: 'Maghreb Tourisme & Transport ',
+        Rating: 4,
+        Reviews: '44',
+        Address: 'Lotissement Boumara, 520, Oujda, Maroc',
+        CompanyMessege:
+          'Urna, purus ac eleifend quisque magna. Odio fermentum, suspendisse cursus rhoncus. Metus parturient fringilla viverra proin.... Lire plus',
+        Phone: '+212 530 800 800',
+        Gallery: [
+          '/Assets/Annuaire/Gallery1.png',
+          '/Assets/Annuaire/Gallery2.png',
+          '/Assets/Annuaire/Gallery3.png',
+          '/Assets/Annuaire/Gallery4.png',
+        ],
+        Clients: [
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 5,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/boy.png',
+            Address: 'Oujda centre, Oujda',
+            Rating: 4,
+            Date: '20/05/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 5,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+        ],
+      },
+      {
+        id: '9',
+        IsVerified: false,
+        CompanyImage: '/Assets/Prans.png',
+        CompanyName: 'P Trans Logistics',
+        Rating: 4,
+        Reviews: '64',
+        Address: 'Zone Industrielle Parcelles A53  BP 23',
+        CompanyMessege:
+          'Urna, purus ac eleifend quisque magna. Odio fermentum, suspendisse cursus rhoncus. Metus parturient fringilla viverra proin.... Lire plus',
+        Phone: '+212 530 800 800',
+        Gallery: [
+          '/Assets/Annuaire/Gallery1.png',
+          '/Assets/Annuaire/Gallery2.png',
+          '/Assets/Annuaire/Gallery3.png',
+          '/Assets/Annuaire/Gallery4.png',
+        ],
+        Clients: [
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 4,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/boy.png',
+            Address: 'Oujda centre, Oujda',
+            Rating: 5,
+            Date: '20/05/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+        ],
+      },
+      {
+        id: '10',
+        IsVerified: true,
+        CompanyImage: '/Assets/Boumara.png',
+        CompanyName: 'Agence BOUMARA Trans ',
+        Rating: 4,
+        Reviews: '44',
+        Address: 'Lotissement Boumara, 520, Oujda, Maroc',
+        CompanyMessege:
+          'Urna, purus ac eleifend quisque magna. Odio fermentum, suspendisse cursus rhoncus. Metus parturient fringilla viverra proin.... Lire plus',
+        Phone: '+212 530 800 800',
+        Gallery: [
+          '/Assets/Annuaire/Gallery1.png',
+          '/Assets/Annuaire/Gallery2.png',
+          '/Assets/Annuaire/Gallery3.png',
+          '/Assets/Annuaire/Gallery4.png',
+        ],
+        Clients: [
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/girl.png',
+            Address: 'LA, California',
+            Rating: 5,
+            Date: '28/03/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+          {
+            Name: 'LoremIpsum',
+            Picture: '/Assets/Annuaire/boy.png',
+            Address: 'Oujda centre, Oujda',
+            Rating: 4,
+            Date: '20/05/2022',
+            Review:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque nulla aliquam aliquet pellentesque ridiculus. At molestie augue ullamcorper convallis a cursus sed dolor tempus. Massa neque commodo tellus adipiscing. Sit gravida elementum  At turpis mauris sit venenatis ut enim fames. Bibendum nunc mauris donec amet eget senectus purus maecenas sed. Tellus placerat ac arcu sit eget posuere. Eleifend justo est eros, integer neque, dis morbi tincidunt. Vitae nec egestas consectetur varius bibendum quis.',
+          },
+        ],
+      },
+    ],
+  },
 };
 
 export default Data;

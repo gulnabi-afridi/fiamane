@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import AnnuaireHandler from './AnnuaireHandler';
 import { BiSearch } from 'react-icons/bi';
 import Pagination from '@mui/material/Pagination';
-import Data from 'constants/JSON/Data';
+import Data from '@/constants/JSON/Data';
 import AnnuaireCard from './AnnuaireCard';
+
 function Annuaire() {
   // states for Annuairehandler
   const [InputsValue, setInputsValue] = useState({
