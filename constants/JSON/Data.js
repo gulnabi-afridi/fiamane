@@ -712,6 +712,26 @@ const Data = {
       },
     ],
   },
+  LegalInformation: [
+    {
+      information: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+      information: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+      information: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+      information: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+      information: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+    {
+      information: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    },
+  ],
 };
 
 export default Data;
