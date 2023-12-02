@@ -451,7 +451,7 @@ const Handler: React.FC<Props> = ({ setState, state }: Props) => {
           )}
 
           {/* ====> Choose a delivery date */}
-          <div className='w-full flex justify-center items-center border-[1px] rounded-[8px] border-solid border-white-cool px-2'>
+          <div className='w-full h-full flex justify-center items-center border-[1px] rounded-[8px] border-solid border-white-cool px-2'>
             {/* =====> icon */}
             {
               <Icons.DateIcon
